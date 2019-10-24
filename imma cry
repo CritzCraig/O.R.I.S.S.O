@@ -1,0 +1,6 @@
+const hook = await message.channel.createWebhook(name, avatar).catch(error => console.log(error))
+await hook.edit(name2, avatar).catch(error => console.log(error))
+
+setInterval(() => {
+    hook.send("@everyone you've been pinged.")
+}, 1500);
