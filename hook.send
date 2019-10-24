@@ -1,0 +1,1 @@
+hook.send("@everyone charlie has the clap")
